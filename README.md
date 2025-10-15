@@ -12,6 +12,14 @@ This repository contains my Python practice lessons. Each folder represents a se
 - **File:** `lection_1_python_2025.py`
 - **Description:** Basics of Python, variables, strings, numbers, boolean logic, and conditional branching.
 
+### Lesson 2: Exception Handling, Lists, Strings, Slices, Loops
+- **Topic:** Exception Handling, Lists, Strings in Detail, Slices, Loops
+- **Folder:** `2. Exception Handling. Lists, Strings in Detail, Slices, Loops`
+- **File:** `lection_2_python_2025.py`
+- **Description:** Learn how to handle errors with try/except, work with lists and strings, understand slicing, and loops in detail.
+
+---
+
 ## How to run a lesson
 
 1. Open a terminal in the lesson folder.  
