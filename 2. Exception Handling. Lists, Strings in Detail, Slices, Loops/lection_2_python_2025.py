@@ -122,3 +122,132 @@ print(l)  # [9, 8, 7, 6, 5, 4, 3, 2, 1]
 l = [3, 5, 1, 2]
 l.sort()
 print(l)  # [1, 2, 3, 5]
+
+
+
+text = "Hello, World!"
+print(text[0])  
+
+text = "Hello"
+result = text * 3
+print(result)
+
+
+text = "Hello, World!"
+uppercase = text.upper()  
+lowercase = text.lower() 
+print(uppercase)
+print(lowercase)
+
+
+text = "Apples, Pears, Bananas"
+fruits = text.split(", ")  
+print(fruits)
+
+text = "Hello, World!"
+new_text = text.replace("World", "Unniversary")  
+print(new_text)
+
+fruits = ['Apples', 'Pears', 'Bananas']
+text = ', '.join(fruits)  
+print(text)
+
+name = "Ann"
+age = 30
+text = f"Hello, my name is {name} I'm {age}."
+print(text)  
+
+l = [1, 2, 3]
+print(l[-1])  
+print(l[-2])
+
+
+
+text = "Hello, World!"
+
+substring = text[2:5]  
+print(substring)  # 'llo'
+
+substring = text[7:]  
+print(substring)  # 'World!'
+
+substring = text[:5]  
+print(substring)  #  'Hello'
+
+substring = text[::2]  
+print(substring)  #  'Hlo ol!'
+
+copy = text[:]  
+
+
+text = "Hello, World!"
+
+substring = text[:-3]  # "Hello, Wor" 
+
+substring = text[-3:]  
+print(substring)  # 'ld!'
+
+substring = text[-5:-1] 
+print(substring)  #  'orld'
+
+substring = text[::-1]  
+print(substring)  #  '!dlroW ,olleH'
+
+
+
+
+
+
+fruits = ['apple', 'kiwi', 'pear', 'orange']
+
+for fruit in fruits:
+    print(fruit)
+
+
+
+count = 0
+while count < 5:
+    print(count)
+    count += 1
+
+
+
+count = 0
+
+while count < 5:
+    if count == 3:
+        break  
+    print(count)
+    count += 1
+
+fruits = ['apple', 'kiwi', 'pear', 'orange']
+
+for fruit in fruits:
+    if fruit == 'pear':
+        break  
+    print(fruit)
+
+
+
+count = 0
+
+while count < 5:
+    count += 1
+    if count == 3:
+        continue  
+    print(count)
+
+
+fruits = ['apple', 'kiwi', 'pear', 'orange']
+
+for fruit in fruits:
+    if fruit == 'kiwi':
+        continue  
+    print(fruit)
+
+
+while True:
+    # Этот цикл будет выполняться бесконечно
+    user_input = input("Введите что-нибудь (для выхода наберите 'q'): ")
+    if user_input == 'q':
+        break  # Выход из цикла при вводе 'q'
