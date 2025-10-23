@@ -66,3 +66,26 @@ FizzBuzz
 Modify the program so that the user manually inputs both divisors and the value of n.
 (Instead of fixed 3, 5, and 15 — use any numbers entered by the user.)"""
 
+#1
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+for number in numbers:
+    print(number ** 2)
+
+summa = 0
+for number in numbers:
+    summa += number
+
+print("The sum of all numbers is:", summa)
+
+
+#2
+some_string = "Today is a good day"
+for char in some_string:
+    print(char)
+
+#3
+substring_first = some_string[:5]
+print(substring_first)
+
+substring_second = some_string[-5:]
+print(substring_second)
