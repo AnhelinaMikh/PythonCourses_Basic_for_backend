@@ -89,3 +89,19 @@ print(substring_first)
 
 substring_second = some_string[-5:]
 print(substring_second)
+
+#4
+numbers_list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+for numb in numbers_list:
+    if numb % 3 == 0:
+        print(f"Number divisible by 3: {number}")
+
+#5
+number = 1
+count = 0
+while number <= 100:
+    count += number
+    number += 1
+    
+print("The sum of numbers from 1 to 100 is:", count)
+    
