@@ -104,4 +104,20 @@ while number <= 100:
     number += 1
     
 print("The sum of numbers from 1 to 100 is:", count)
-    
+
+
+#6
+while True:
+    user_input = input("Input some number (For exit input 'q' or 'exit')")
+
+    if user_input in ['q', 'exit']:
+        break
+
+    if user_input.isdigit():
+        number = int(user_input)
+        print (f"The square of {number} is {number ** 2}")
+    else:
+        print("Input correct number")
+        
+
+
