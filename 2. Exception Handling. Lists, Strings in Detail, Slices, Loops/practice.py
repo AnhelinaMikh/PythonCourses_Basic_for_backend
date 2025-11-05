@@ -119,5 +119,22 @@ while True:
     else:
         print("Input correct number")
         
+#7
 
+list_of_words = ['apple', 'banana', 'kiwi', 'orange', 'orange', 'banana']
 
+unique_words = []
+for word  in list_of_words:
+    if word not in unique_words:
+        unique_words.append(word)
+print("Unique words:", unique_words)
+
+#8
+user_string = input("Input string").lower()
+vowels = 'аоуеи'
+count = 0
+for letter in user_string:
+    if letter in vowels:
+        count += 1
+print(f"Number of vowels in a string {count}") 
+    
