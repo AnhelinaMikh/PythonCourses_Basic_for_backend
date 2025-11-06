@@ -131,10 +131,20 @@ print("Unique words:", unique_words)
 
 #8
 user_string = input("Input string").lower()
-vowels = 'аоуеи'
+vowels = 'aoueiy'
 count = 0
 for letter in user_string:
     if letter in vowels:
         count += 1
 print(f"Number of vowels in a string {count}") 
+
+#9
+sentence = "Life is not measured by the number of breaths we take, but by the moments that take our breath away"
+word_to_replace = input("Enter a word to replace in the sentence: Life is not measured by the number of breaths we take, but by the moments that take our breath away: ").lower()
+new_sentence = sentence.replace(word_to_replace, "replaced")
+print("Modified sentence: ", new_sentence)
+
+duplicate_list = [1, 1, 3, 7, 4, 55, 4, 4]
+set_list = set(duplicate_list)
+print(set_list)
     
