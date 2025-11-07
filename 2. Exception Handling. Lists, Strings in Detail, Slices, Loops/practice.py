@@ -144,7 +144,34 @@ word_to_replace = input("Enter a word to replace in the sentence: Life is not me
 new_sentence = sentence.replace(word_to_replace, "replaced")
 print("Modified sentence: ", new_sentence)
 
+#10
 duplicate_list = [1, 1, 3, 7, 4, 55, 4, 4]
 set_list = set(duplicate_list)
 print(set_list)
     
+#11
+numbers = []
+seed = 7  
+for i in range(10):
+    seed = (seed * 37 + 11) % 100  
+    numbers.append(seed)
+
+print(numbers)
+
+
+#12 
+
+user_number = int(input("Input number"))
+
+for number in range(1, user_number + 1):
+    if number % 3 == 0 and number % 5 == 0:
+        print("FizzBuzz")
+    elif number % 3 == 0:
+        print("Fizz")
+    elif number % 5 == 0:
+        print("Buzz")
+    else:
+        print(number)
+
+
+        
