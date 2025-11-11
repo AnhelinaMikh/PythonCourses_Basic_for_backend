@@ -57,6 +57,14 @@ Each folder represents a separate lecture with examples and exercises.
 
 ---
 
+### Lesson 3: None, Range, List Comprehension, Sum, Max, Min, Len, Sorted, All, Any, Working with Files
+- **Topic:** Built-in Python functions and file handling  
+- **Folder:** `3. None. Range, List Comprehension, Sum, Max, Min, Len, Sorted, All, Any, Working with Files`  
+- **File:** `lection_3_python_2025.py`  
+- **Description:** Exploring the `None` type, working with ranges and list comprehensions, using built-in functions like `sum`, `max`, `min`, `len`, `sorted`, `all`, `any`, and learning the basics of file operations.
+
+---
+
 ## How to Run a Lesson
 
 1. Open a terminal in the desired lesson folder.  
