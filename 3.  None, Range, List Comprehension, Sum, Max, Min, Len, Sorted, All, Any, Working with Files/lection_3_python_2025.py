@@ -1,3 +1,6 @@
+from django.urls import reverse
+
+
 x = None
 if x is None:
     print("var included None")
@@ -90,3 +93,35 @@ elif numbers == sorted(numbers, reverse=True):
     print("The list is sorted in descending order.")
 else:
     print("The list is not sorted.")
+
+#5
+start = int(input("Enter the first number: "))
+end = int(input("Enter the second number: "))
+for i in range(start, end + 1):
+    if i % 2 != 0:
+        print([i])
+
+#6
+start = int(input("Enter the first number: "))
+end = int(input("Enter the second number: "))
+
+total = 0
+for i in range(start, end + 1):
+    total += i
+print(total)
+
+### without total
+start = int(input("Enter the first number: "))
+end = int(input("Enter the second number: "))
+
+print(sum(range(start, end + 1)))
+
+#7
+start = int(input("Enter the first number: "))
+end = int(input("Enter the second number: "))
+
+numbers = list(range(start, end + 1))
+reversed_list = sorted(numbers, reverse=True)
+
+print(reversed_list)
+
